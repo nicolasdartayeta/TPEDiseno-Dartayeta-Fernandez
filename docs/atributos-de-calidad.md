@@ -35,7 +35,12 @@ Los atributos de calidad fueron plasmados en los siguientes escenarios:
 ## Desplegabilidad
 | **ID** | **Escenario** |
 |---|---|
-| QA-Des-1 | Ante un cambio de implementacion de un microservicio, el sistema debe desplegar el mismo en menos de 30 minutos. |
+| QA-Des-1 | Ante un cambio de implementacion de un microservicio, el sistema debe desplegar el mismo en menos de 30 minutos.|
+
+## Portabilidad
+| **ID** | **Escenario** |
+|---|---|
+| QA-Por-1 | El sistema debe poder desplegarse tanto localmente o como en cualquier plataforma en la nube. |
 
 
 ## Interoperabilidad

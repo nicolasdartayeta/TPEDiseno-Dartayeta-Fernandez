@@ -14,8 +14,8 @@ El sistema actual cuenta con una arquitectura monolitica. Se quiere que la arqui
 
 Opcion elegida: "Migrar hacia un sistema basado en microservicios", dada su gran flexibilidad y facilidad a la hora de escalar.
 
-<!-- This is an optional element. Feel free to remove. -->
 ### Consecuencias
 
-* Buena, mejora en la capacidad de escalabilidad del sistema
+* Buena, mejora en la capacidad de escalabilidad, desplegabiliad, y modificabilidad del sistema
+* Mala, coexistencia de ambos sistemas durante la transicion hacia microservicios. 
 * Mala, complejidad a la hora de migrar un sistema monolito hacia microservicios.
