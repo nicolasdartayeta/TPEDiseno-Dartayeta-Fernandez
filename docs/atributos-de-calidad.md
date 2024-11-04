@@ -1,27 +1,33 @@
 # Atributos de calidad
 Los atributos de calidad fueron plasmados en los siguientes escenarios:
 
-### Performance
+## Performance
 | **ID** | **Escenario** |
 |---|---|
-| QA-P-1 | AAAAA|
+| QA-Per-1 | Cuando un cliente realiza un pedido en condiciones normales de trafico este debe ser procesado por el sistema en menos de tres segundos, informandole al usuario si hubo algun error o no.|
+|QA-Per-2|Cuando se realiza la planificacion de rutas de reparto el sistema debe generar la planificacion en menos de 30 segundos.|
 
-### Modificabiliad
+## Disponibilidad
 | **ID** | **Escenario** |
 |---|---|
-| QA-M-1 | AAAAA|
+|QA-Dis-1|En el caso de haber una caida en el servicio de pedidos el sistema debe detectar este fallo y recuperarse en menos de  5 segundos.|
 
-### Seguridad
+## Modificabiliad
 | **ID** | **Escenario** |
 |---|---|
-| QA-S-1 | AAAAA|
+| QA-Mod-1 | Al |
 
-### Escalabilidad
+## Seguridad
 | **ID** | **Escenario** |
 |---|---|
-| QA-E-1 | AAAAA|
+| QA-Seg-1 | Ante un intento de acceso no autorizado a datos de clientes, el sistema detecta y bloquea el intento en 100% de los casos, registrando el evento para auditoría, sin exponer información sensible.|
 
-### Desplegabilidad
+## Escalabilidad
 | **ID** | **Escenario** |
 |---|---|
-| QA-D-1 | AAAAA|
+| QA-Esc-1 | AAAAA|
+
+## Desplegabilidad
+| **ID** | **Escenario** |
+|---|---|
+| QA-Des-1 | AAAAA|
