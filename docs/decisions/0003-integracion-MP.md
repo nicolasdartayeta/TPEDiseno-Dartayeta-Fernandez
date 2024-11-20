@@ -6,8 +6,8 @@ Especificar el microservicio de pagos para gestionar la integración con una pas
 
 ## Opciones consideradas
 
-* Usar la pasarela de pagos de MercadoPago.
-* Usar la pasarela de pagos de Modo.
+- Usar la pasarela de pagos de MercadoPago.
+- Usar la pasarela de pagos de Modo.
 
 ## Opcion elegida
 
@@ -17,11 +17,12 @@ Opcion elegida: "Usar la pasarela de pagos de MercadoPago". Se eligio esta opcio
 
 ### Consecuencias
 
-* Buena, el desarrollo del microservicios de pagos se simplifica.
-* Buena, es posible aplicar lógica propia antes de enviar la request a MercadoPago.
-* Buena, se delega la lógica complicada de procesar el pago a MercadoPago.
-* Mala, se depende de un servicio de terceros para procesar los pagos.
+- Buena, el desarrollo del microservicios de pagos se simplifica.
+- Buena, es posible aplicar lógica propia antes de enviar la request a MercadoPago.
+- Buena, se delega la lógica complicada de procesar el pago a MercadoPago.
+- Mala, se depende de un servicio de terceros para procesar los pagos.
 
 ## Atributos de calidad satisfechos
-* QA-Seg-1
-* QA-Int-1
+- QA-Seg-1
+- QA-Int-1
+- QA-Mod-2
