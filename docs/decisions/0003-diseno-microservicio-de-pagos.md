@@ -1,4 +1,4 @@
-## Integracion de MercadoPago
+# Diseño microservicio de pagos
 
 ## Contexto y problema
 
@@ -22,7 +22,7 @@ Opcion elegida: "Usar la pasarela de pagos de MercadoPago". Se eligio esta opcio
 - Buena, se delega la lógica complicada de procesar el pago a MercadoPago.
 - Mala, se depende de un servicio de terceros para procesar los pagos.
 
-## Atributos de calidad satisfechos
+## Atributos de calidad afectados
 - QA-Seg-1
 - QA-Int-1
 - QA-Mod-2

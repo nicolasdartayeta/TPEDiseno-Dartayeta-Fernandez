@@ -15,6 +15,6 @@ Opcion elegida: "Uso de contenedores con Docker" ya que los contenedores pueden 
 - Buena, los microservicios pueden ser desplegados por contenedor, permitiendo modificarlos independientemente uno de otro.
 - Mala, se suma una nueva tecnologia al stack.
 
-## Atributos de calidad satisfechos
+## Atributos de calidad afectados
 - QA-Des-1
 - QA-Por-1

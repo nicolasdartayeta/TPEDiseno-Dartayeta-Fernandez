@@ -14,7 +14,6 @@ Opcion elegida: "Bases de datos distribuidas". Cada microservicio, de necesitarl
 - Pedidos: MongoDB
 - Repartos y rutas: MongoDB
 - Pagos: PostgreSQL
-- Estadisticas: MongoDB
 - Incidencias: MongoDB
 
 ### Consecuencias
@@ -25,3 +24,6 @@ Opcion elegida: "Bases de datos distribuidas". Cada microservicio, de necesitarl
 - Mala, complejidad en transacciones distribuidas
 - Mala, mayor overhead de infraestructura
 - Mala, posible inconsistencia entre microservicios
+
+## Atributos de calidad afectados
+- QA-Dis-1

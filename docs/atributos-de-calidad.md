@@ -10,8 +10,8 @@ Los atributos de calidad fueron plasmados en los siguientes escenarios:
 ## Disponibilidad
 | **ID** | **Escenario** |
 |---|---|
-|QA-Dis-1|En el caso de haber una caida en el servicio de pedidos el sistema debe detectar este fallo y recuperarse en menos de  5 segundos.|
-|QA-Dis-1| Ante la orden de una compra, el sistema debe contar con la disponibilidad del componente de ruteo en el 99% de los intentos. |
+|QA-Dis-1|En el caso de haber una caida de algun microservicio el sistema debe detectar este fallo y poder continuar informando el error.|
+|QA-Dis-2| Ante la orden de una compra, el sistema debe contar con la disponibilidad del componente de ruteo en el 99% de los intentos. |
 
 ## Modificabiliad
 | **ID** | **Escenario** |
@@ -25,12 +25,10 @@ Los atributos de calidad fueron plasmados en los siguientes escenarios:
 | QA-Seg-1 | Ante un intento de acceso no autorizado a datos de clientes, el sistema detecta y bloquea el intento en 100% de los casos, registrando el evento para auditoría, sin exponer información sensible.|
 | QA-Seg-2 | Ante una transaccion inusual debido a grandes montos o usuarios nuevos, el sistema debe catalogar la compra como "sospechosa", dandole la potestad al administrador de aprobarla o rechazarla. |
 
-
 ## Escalabilidad
 | **ID** | **Escenario** |
 |---|---|
 | QA-Esc-1 | Durante una promoción, se incrementan los pedidos a 10 veces la carga normal. El microservicio de Pedidos se escala automáticamente, manteniendo el tiempo de respuesta debajo de 2 segundos.|
-
 
 ## Desplegabilidad
 | **ID** | **Escenario** |
@@ -41,7 +39,6 @@ Los atributos de calidad fueron plasmados en los siguientes escenarios:
 | **ID** | **Escenario** |
 |---|---|
 | QA-Por-1 | El sistema debe poder desplegarse tanto localmente o como en cualquier plataforma en la nube. |
-
 
 ## Interoperabilidad
 | **ID** | **Escenario** |
