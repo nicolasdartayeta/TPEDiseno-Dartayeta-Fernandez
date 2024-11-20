@@ -2,24 +2,26 @@
 
 ## Contexto y problema
 
-Implementar un microservicio específico para gestionar la integración con la pasarela de pago de MercadoPago, que valide las transacciones y gestione la seguridad de los pagos.
+Especificar el microservicio de pagos para gestionar la integración con una pasarela de pagos, que valide las transacciones y gestione la seguridad de los pagos.
 
 ## Opciones consideradas
 
-* Integrar la gestión de pagos dentro del microservicio de "Pedidos".
-* Crear un microservicio dedicado a la gestión de pagos.
+* Usar la pasarela de pagos de MercadoPago.
+* Usar la pasarela de pagos de Modo.
 
 ## Opcion elegida
 
-Opcion elegida: "Crear un microservicio dedicado a la gestión de pagos", dada la posibilidad de gestionar la seguridad y monitoreo de las transacciones de manera especifica e individual al microservicio.
+Opcion elegida: "Usar la pasarela de pagos de MercadoPago". Se eligio esta opcion por la facilidad a la hora de integrarla con el microservicio de pagos. El servicio cuenta con buena documentacion y los desarrolladores estan familirizados con ella.
+
+![image](/docs/resources/pagos.png)
 
 ### Consecuencias
 
-* Buena, mejora en la seguridad al mantener la validación de pagos y las transacciones sospechosas en un microservicio aislado.
-* Buena, se reduce el riesgo de fraude o errores al centralizar el control de transacciones en un microservicio especializado.
-* Mala, empeora la latencia ligeramente debido a la comunicación adicional entre microservicios.
+* Buena, el desarrollo del microservicios de pagos se simplifica.
+* Buena, es posible aplicar lógica propia antes de enviar la request a MercadoPago.
+* Buena, se delega la lógica complicada de procesar el pago a MercadoPago.
+* Mala, se depende de un servicio de terceros para procesar los pagos.
 
 ## Atributos de calidad satisfechos
 * QA-Seg-1
-* QA-Seg-2
-* QA-Des-1
+* QA-Int-1

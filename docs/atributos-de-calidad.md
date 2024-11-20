@@ -23,7 +23,7 @@ Los atributos de calidad fueron plasmados en los siguientes escenarios:
 | **ID** | **Escenario** |
 |---|---|
 | QA-Seg-1 | Ante un intento de acceso no autorizado a datos de clientes, el sistema detecta y bloquea el intento en 100% de los casos, registrando el evento para auditoría, sin exponer información sensible.|
-| QA-Seg-1 | Ante una transaccion inusual debido a grandes montos o usuarios nuevos, el sistema debe catalogar la compra como "sospechosa", dandole la potestad al administrador de aprobarla o rechazarla. |
+| QA-Seg-2 | Ante una transaccion inusual debido a grandes montos o usuarios nuevos, el sistema debe catalogar la compra como "sospechosa", dandole la potestad al administrador de aprobarla o rechazarla. |
 
 
 ## Escalabilidad
