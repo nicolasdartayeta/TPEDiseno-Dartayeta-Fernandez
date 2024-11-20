@@ -1,3 +1,4 @@
+[back](/docs/decisions/home.md)
 # Bases de datos distribuidas
 
 ## Contexto y problema

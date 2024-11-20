@@ -1,3 +1,4 @@
+[back](/README.md)
 # Requerimientos funcionales
 Los casos de uso se podrían refinar más pero para realizar el diseño del sistema con lo descripto a continuación es suficiente.
 | ID | Caso de uso |
