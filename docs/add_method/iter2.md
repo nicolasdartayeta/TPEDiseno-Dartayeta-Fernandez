@@ -5,9 +5,9 @@ Tipo resumencito de lo q esta abajo
 
 ## Drivers
 - Proposito del diseño
-- Requerimientos funcionales
-- Atributos de calidad
-- Restricciones
+- [Requerimientos funcionales](/docs/requerimientos-funcionales.md)
+- [Atributos de calidad](/docs/atributos-de-calidad.md)
+- [Restricciones](/docs/restricciones.md)
 - Consideraciones de la arquitectura
 
 ## Objetivos
