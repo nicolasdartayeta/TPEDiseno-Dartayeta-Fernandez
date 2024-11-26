@@ -1,7 +1,6 @@
 # Iteración 1
 
 ## Descripcion
-Tipo resumencito de lo q esta abajo
 
 ## Drivers
 - Proposito del diseño
