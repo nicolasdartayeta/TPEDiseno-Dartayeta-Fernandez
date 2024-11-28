@@ -1,3 +1,4 @@
+[back](/docs/add_method/home.md)
 # Iteración 2
 
 ## Descripcion
