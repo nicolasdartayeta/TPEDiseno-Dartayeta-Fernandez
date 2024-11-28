@@ -58,10 +58,6 @@ En esta iteración se refinará el diseño del microservicio de pagos, asegurand
     - Almacenar eventos críticos de transacciones de pago.
     - Proveer capacidades de consulta para revisiones
 
-- PaymentRepository: Almacena información de las transacciones realizadas para futuras consultas y auditorías.
-    - Persistir información de las transacciones.
-    - Permitir la consulta de datos históricos.
-
 ## Decisiones tomadas
 - Se diseñará un adaptador genérico para pasarelas de pago, facilitando la integración de nuevos métodos de pago en el futuro.
 
@@ -73,3 +69,4 @@ En esta iteración se refinará el diseño del microservicio de pagos, asegurand
 - [ 0003-diseno-microservicio-de-pagos ](/docs/decisions/0003-diseno-microservicio-de-pagos.md)
 
 ### Diagrama/sketch del resultado
+![image](/docs/resources/microservicio-pagos.png)
